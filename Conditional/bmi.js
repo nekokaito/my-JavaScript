@@ -1,5 +1,6 @@
-var kg = 56;
-var m = 1.76784;
+var kg = 45;
+var foot = 5.5;
+var m = foot * 0.3048;
 var BMI = kg / (m*m);
 
 if (BMI < 18.5) {
@@ -14,4 +15,6 @@ else if (BMI >=25 && BMI <= 29.9) {
 else {
     console.log("You are obese");
 }
+// .....................................
+
 console.log(BMI);
