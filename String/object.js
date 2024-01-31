@@ -4,3 +4,4 @@ const myPhone = {
     color: 'black'
 }
 console.log(myPhone);
+console.log(myPhone.color);
