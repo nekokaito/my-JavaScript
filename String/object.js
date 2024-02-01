@@ -5,3 +5,4 @@ const myPhone = {
 }
 console.log(myPhone);
 console.log(myPhone.color);
+console.log(myPhone['price']);
