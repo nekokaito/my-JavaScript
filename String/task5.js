@@ -1,13 +1,7 @@
-const word = "I have a big monitor";
-let modWord = '';
-for (let i = 0 ; i<word.length; i++) {
-
-    if (word[i]===' ') {
-       modWord +=  word[i+1].toUpperCase();
-        
-    }
-    else {
-         modWord += word[i];
-    }
+const sentence = "i love ayaka";
+const words = sentence.split(' ');
+for (let i = 0; i < words.length; i++) {
+  words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1);
 }
-console.log(modWord);
+const cSentence = words.join(' ');
+console.log(cSentence);
