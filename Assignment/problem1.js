@@ -10,4 +10,4 @@ function calculateMoney(ticketSale) {
         }
 }
 
-    console.log(calculateMoney(-130));
+ 
