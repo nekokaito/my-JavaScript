@@ -11,4 +11,4 @@ else {
     sign = '+';
 }
 
-alert('The sign is ', sign);
+alert('The sign is '+ sign);
